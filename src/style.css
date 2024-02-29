@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  /* background: linear-gradient(45deg, #1870ed 0, #f18f88 100%); */
+  
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+  
+  height: 100vh; /* Ensure full viewport height */
+  /* background-image: url(https://raw.githubusercontent.com/Avielbe/stackblitz-JewCal4/main/src/background01.jpg?token=GHSAT0AAAAAACNK3PAIMOQUKPPJAI4RNKI4ZOXCISA);
+  background-size: cover;
+  background-position: center;
+  filter: blur(5px); */
+  /* background: linear-gradient(45deg, rgb(19, 73, 95), rgb(118, 75, 226), rgb(131, 115, 198), rgb(119, 211, 185)); */
+}
+.App {
+  text-align: center;
+  align-items: center;
+  /* justify-content: center; */
+}
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+  /* text-align: center; */
+}
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(3px); 
+}
+.countdown {
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+  color: #000;
+  max-width: 700px; /* Set maximum width */
+}
+
+.countdown-timer {
+  font-size: 3rem; /* Adjust the font size as desired */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.countdown-digit {
+  margin: 0;
+}
+
+.countdown-description {
+  margin: 0;
+  font-size: 0.8rem; /* Adjust the font size of the descriptions */
+}
+
+.countdown-separator {
+  margin: 0 0.5rem; /* Adjust the spacing between digits as desired */
+}
+
+.countdown-details {
+  margin-top: 1rem; /* Adjust the margin between timer and details */
+}
+.mini-countdown {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  color: #000;
+  /* flex: 0; Allow flex item to grow and shrink */
+  max-width: 200px; /* Set maximum width */
+  text-align: center;
+  width: calc(33.33% - 30px); /* Distribute width evenly with margins */
+  height: 12rem;
+
+}
