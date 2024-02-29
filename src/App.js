@@ -76,11 +76,8 @@ function MainCountdownTimer({ nextVacation, nextVacationName }) {
       </div>
 
       <h1>עד לחופשת {nextVacationName}</h1>
-      <p>On {nextVacation.toDateString()}</p>
+      {/* <p>On {nextVacation.toDateString()}</p> */}
 
-      <p>
-        
-      </p>
     </div>
   );
 }
@@ -102,7 +99,7 @@ function NextVacation() {
         nextVacationName={nextVacationName}
       />
 
-      <h1
+      {/* <h1
         onClick={() => setIsVacationListCollapsed(!isVacationListCollapsed)}
         style={{ cursor: 'pointer' }}
       >
@@ -121,7 +118,7 @@ function NextVacation() {
             </div>
           ))}
         </div>
-      )}
+      )} */}
     </div>
   );
 }
