@@ -276,7 +276,7 @@ export default function App() {
         eventEmoji="🏖️"
       />
       <MiniCountdown
-        eventName="שבת הקרובה"
+        eventName="שבת-הקרובה"
         eventDate={nextSaturday}
         eventEmoji="🕯️🕯️"
       />
